@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Najblizsza liczba sredniej" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="1">
+			<notes>
+				<![CDATA[Program pobiera 5 liczb a nastêpnie:
+- wyswietla je
+- sumuje
+- wyciaga srednia
+- wykazuje najwieksza z liczb
+- wskazuje liczbe nablizsza sredniej wpisanych liczb
+(wykorzystanie biblioteki math.h i funkcji fabs)
+[fabs - zwraca wartosc bezwzgledna liczby zmiennoprzecinkowej jaka jest float,
+dzieki czemu porownywane sa tylko dodatnie liczby]]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Zadanie domowe#1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Zadanie domowe#1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
