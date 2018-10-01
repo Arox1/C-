@@ -23,8 +23,6 @@ int main()
           suma=suma+tab[i];
         }
         cout << "Suma podanych liczb wynosi: " << suma << endl;
-        cout << "-------------------------------------" << endl;
-
     }
     return 0;
 }
